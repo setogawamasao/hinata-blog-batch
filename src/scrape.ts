@@ -105,8 +105,22 @@ capabilities.set("chromeOptions", {
 
       blog.url = blogUrl;
 
-      // データベースに保存
-      //await con.manager.save(blog);
+      const repository = con.getRepository(Blogs);
+
+      const existedBlog = await repository.find({
+        posted_by: blog.posted_by,
+        posted_at: blog.posted_at,
+        title: blog.title,
+      });
+
+      if (existedBlog.length === 0) {
+        // データベースに保存
+        await con.manager.save(blog);
+        console.log("not exist");
+      } else {
+        console.log("exist");
+        isBlogLoop = false;
+      }
 
       try {
         // 前投稿への遷移のエレメントを取得
@@ -131,8 +145,6 @@ capabilities.set("chromeOptions", {
           until.elementLocated(By.css(".c-jasrac__image")),
           10000
         );
-
-        // isBlogLoop = false;
       } catch (e) {
         isBlogLoop = false;
       }
