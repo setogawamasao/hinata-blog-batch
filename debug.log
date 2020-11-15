@@ -1,0 +1,18 @@
+[1018/011038.172:ERROR:process_reader_win.cc(123)] NtOpenThread: {アクセス拒否} プロセスはオブジェクトのアクセスを要求しましたが、アクセス権が与えられていません。 (0xc0000022)
+[1018/011038.173:ERROR:exception_snapshot_win.cc(99)] thread ID 16304 not found in process
+[1018/011038.171:ERROR:process_reader_win.cc(123)] NtOpenThread: {アクセス拒否} プロセスはオブジェクトのアクセスを要求しましたが、アクセス権が与えられていません。 (0xc0000022)
+[1018/011038.173:ERROR:exception_snapshot_win.cc(99)] thread ID 20356 not found in process
+[1018/011038.183:ERROR:process_reader_win.cc(151)] SuspendThread: アクセスが拒否されました。 (0x5)
+[1018/011038.183:ERROR:process_reader_win.cc(151)] SuspendThread: アクセスが拒否されました。 (0x5)
+[1018/011038.188:ERROR:process_reader_win.cc(123)] NtOpenThread: {アクセス拒否} プロセスはオブジェクトのアクセスを要求しましたが、アクセス権が与えられていません。 (0xc0000022)
+[1018/011038.188:ERROR:exception_snapshot_win.cc(99)] thread ID 14476 not found in process
+[1018/011038.185:ERROR:process_reader_win.cc(151)] SuspendThread: アクセスが拒否されました。 (0x5)
+[1018/011038.190:ERROR:process_reader_win.cc(123)] NtOpenThread: {アクセス拒否} プロセスはオブジェクトのアクセスを要求しましたが、アクセス権が与えられていません。 (0xc0000022)
+[1018/011038.190:ERROR:exception_snapshot_win.cc(99)] thread ID 15012 not found in process
+[1018/012555.154:ERROR:directory_reader_win.cc(43)] FindFirstFile: 指定されたパスが見つかりません。 (0x3)
+[1018/133305.148:ERROR:directory_reader_win.cc(43)] FindFirstFile: 指定されたパスが見つかりません。 (0x3)
+[1018/204818.328:ERROR:process_reader_win.cc(123)] NtOpenThread: {アクセス拒否} プロセスはオブジェクトのアクセスを要求しましたが、アクセス権が与えられていません。 (0xc0000022)
+[1018/204818.329:ERROR:exception_snapshot_win.cc(99)] thread ID 16288 not found in process
+[1018/204818.344:ERROR:process_reader_win.cc(123)] NtOpenThread: {アクセス拒否} プロセスはオブジェクトのアクセスを要求しましたが、アクセス権が与えられていません。 (0xc0000022)
+[1018/204818.344:ERROR:exception_snapshot_win.cc(99)] thread ID 20684 not found in process
+[1018/213300.723:ERROR:directory_reader_win.cc(43)] FindFirstFile: 指定されたパスが見つかりません。 (0x3)
